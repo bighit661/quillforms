@@ -6,9 +6,9 @@ import {
 } from '@quillforms/blocklib-dropdown-block';
 
 const register = () => {
-	registerBlockType( name, {
+	registerBlockType(name, {
 		...metadata,
 		...rendererSettings,
-	} );
+	});
 };
 export default register;
